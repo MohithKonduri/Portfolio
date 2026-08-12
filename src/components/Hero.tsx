@@ -113,7 +113,6 @@ export const Hero: React.FC<HeroProps> = ({ data, publicationStats, socialLinks 
     const stats = publicationStats ? [
         { label: 'Journals', value: publicationStats.journals, icon: <FileText size={24} />, color: '#064e3b' },
         { label: 'Conferences', value: publicationStats.conferences, icon: <Newspaper size={24} />, color: '#065f46' },
-        { label: 'Books Published', value: publicationStats.books, icon: <BookOpen size={24} />, color: '#047857' }
     ] : [];
 
     const handleNextPage = () => {

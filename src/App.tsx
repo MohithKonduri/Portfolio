@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { Section } from './components/Section';
 import { ResearchPublications } from './components/ResearchPublications';
 import { Contact } from './components/Contact';
+import { PortfolioSections } from './components/PortfolioSections';
 import { SECTION_TITLES } from './config/sheets';
 import { Loader2, AlertCircle } from 'lucide-react';
 
@@ -120,6 +121,9 @@ function App() {
           </section>
         )}
 
+        {/* Hardcoded Resume Sections */}
+        <PortfolioSections />
+
         <div className="container mx-auto px-6 py-20 space-y-16">
           {sectionsToRender.map(key => (
             <Section
@@ -156,7 +160,7 @@ function App() {
                 {fullName}
               </h3>
               <p className="text-slate-300 font-medium">
-                {designation} {department ? `• ${department}` : ''}
+                Student {department ? `• ${department}` : ''}
               </p>
             </div>
             <div className="h-px w-32 bg-gradient-to-r from-transparent via-sky-500 to-transparent mx-auto mb-6"></div>

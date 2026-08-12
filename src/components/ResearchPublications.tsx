@@ -206,12 +206,6 @@ export const ResearchPublications: React.FC<ResearchPublicationsProps> = ({
                         color="from-blue-500 to-indigo-600"
                     />
 
-                    <SubSection
-                        title="Books Published"
-                        icon={<BookOpen className="w-6 h-6 text-white" />}
-                        rows={books}
-                        color="from-indigo-500 to-purple-600"
-                    />
                 </div>
             </motion.div>
         </section>
