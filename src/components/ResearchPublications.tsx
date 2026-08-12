@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, BookOpen, FileText, Newspaper, Lightbulb } from 'lucide-react';
+import { ExternalLink, FileText, Newspaper, Lightbulb } from 'lucide-react';
 
 interface ResearchPublicationsProps {
     journalPublications: Record<string, string>[];

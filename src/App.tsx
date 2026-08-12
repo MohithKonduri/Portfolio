@@ -84,7 +84,6 @@ function App() {
 
   const aboutText = getBasicInfoValue(['About', 'about', 'Bio', 'Summary', 'Description']);
   const fullName = getBasicInfoValue(['Full Name', 'Name']);
-  const designation = getBasicInfoValue(['Designation', 'Role', 'Rank']);
   const department = getBasicInfoValue(['Department', 'Dept']);
 
   return (

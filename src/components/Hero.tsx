@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Github, Linkedin, User as UserIcon, BookOpen, FileText, Newspaper, Building2, IdCard, Phone, GraduationCap, Library, Link as LinkIcon, ChevronRight } from 'lucide-react';
+import { Mail, Github, Linkedin, User as UserIcon, FileText, Newspaper, Building2, IdCard, Phone, GraduationCap, Library, Link as LinkIcon, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface HeroProps {

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
-  Code2, Database, Cloud, Globe, Zap,
-  Briefcase, Calendar, MapPin,
-  Trophy, Award, Star,
+  Database, Cloud, Globe, Zap,
+  Calendar, MapPin,
+  Star,
   Users, Crown, Megaphone, GraduationCap,
-  BookOpen, Lightbulb, ChevronDown, ChevronUp,
-  ExternalLink, Terminal, Layers, Server, Cpu
+  ChevronDown, ChevronUp,
+  ExternalLink, Terminal, Layers, Server
 } from 'lucide-react';
 
 /* ─────────────────── DATA ─────────────────── */
